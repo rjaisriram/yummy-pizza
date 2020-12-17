@@ -1,0 +1,11 @@
+footer{
+    height: 30em;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.footer_copyright{
+    margin-top: 12em;
+    font-size: 1rem;
+} 

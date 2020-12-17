@@ -1,0 +1,54 @@
+.form-page{
+    height: 65vh;
+    width: 60em;
+    margin: 5em auto 3em auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-page_title{    
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 1.4em;
+}
+
+.form-input_group{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.form-input_size{
+    width: 18em;
+    height: 4em;
+}
+
+.Contact_button{
+    border: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: .3em;
+    width: 6em;
+    height: 2.8em;
+    background: #f4781d;
+}
+
+@media screen and (max-width:790px){
+    .form-input_group{
+        width: 100%;
+        flex-direction: column;
+    }
+    .form-input_size{
+        width: 100%;
+    }
+    .form-page{
+        width: 50em;
+        margin: 5em auto 10em auto;
+    }
+}
+
+@media screen and (max-width:600px){
+    .form-page{
+        width: 45em;
+    }
+}

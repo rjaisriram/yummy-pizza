@@ -1,0 +1,17 @@
+.Input-form_box{
+    height: 100%;
+}
+
+.input-popup_title{
+    color: #000000;
+}
+
+.input-popup_button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}

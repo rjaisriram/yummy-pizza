@@ -1,0 +1,1 @@
+export const API = 'https://rest-yummy-api.herokuapp.com/api'

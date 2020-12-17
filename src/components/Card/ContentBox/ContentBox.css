@@ -1,0 +1,21 @@
+.ContentBox{
+    width: 150px;
+    height: 150px;
+    background: #ffcaeb;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.ContentBox-count{
+    color: #f00c63;
+    font-weight: 600;
+    font-size: 56px;
+}
+
+.ContentBox-title{
+    color: #363636;
+    font-weight: 500;
+    font-size: 20px;
+}

@@ -1,0 +1,130 @@
+.client-dashboard_page{
+    padding: 5em 0;
+    min-height: 80vh;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #393E46;
+}
+
+.client-dashboard_page-title{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.client-dashboard_history-box{
+    padding: 0 1.5em;
+    border-radius: .5em;
+    background: #FFD66B;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.2em;
+}
+
+.order-history_product-box{
+    display: flex;
+    margin: 2em 0;    
+}
+
+.order-history_product-name{
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+}
+
+.client-dashboard_empty{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #363636;
+}
+
+.order-history_product-name h6{ 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.order-history_product-image{
+    width: 15em;
+    border-radius: .3em;
+    margin-right: 4em;
+}
+
+.order-history_web-view{
+    margin-top: 1em
+}
+
+.client-dashboard_page i{
+    margin-top: 1em
+}
+
+.client-dashboard_history-cancel{
+    font-size: 1.6rem;
+    height: 1em;
+    cursor: pointer;
+    color: #ff0202;    
+}
+
+.side-buttons_box{
+    display: none;
+}
+
+@media screen and (max-width: 1080px) {
+    .client-dashboard_page{
+        max-width:100%;
+        padding: 10em 5em;
+    }
+    .order-history_product-name{
+        width: 20em;
+    }
+    .order-history_product-name h6{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .order-history_web-view{
+        display: none
+    }
+    .order-history_product-image{
+        width: 12em;
+        margin-right: 2em;
+    }
+    .order-history_product-name h6{
+        font-size: 1rem;
+    }
+    .side-buttons_box{
+        display: block;
+    }
+    
+    .side-buttons_dropdown-content{
+        display: none;
+        padding: 2em;
+        position: absolute;
+        z-index: 1;
+        max-width: 18em;
+        background: #f4f4f4;
+        margin-left: -10em;
+        margin-top: -3em;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+       
+    .side-buttons_dropdown{
+        display: inline-block;
+        cursor: pointer;
+        height: 2em;
+        padding-left: 2em;
+        position: relative;
+    }
+    
+    .side-buttons_box:hover .side-buttons_dropdown-content{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .client-dashboard_page{
+        padding: 10em 3em;
+    }
+}

@@ -1,0 +1,110 @@
+ .Product-card_box{
+     max-width: 280px;
+     width: 100%;
+     height: auto;
+     background: #f4f4f4;
+     border-radius: 10px;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .Product-card_box:hover{
+    -webkit-box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.64);
+-moz-box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.64);
+box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.64);
+ }
+ 
+ .Product-card_text-box{
+     padding: 30px 10px;
+     height: 180px;
+ }
+  
+ .Product-card_title{
+    font-family: 'Lato', sans-serif;
+     font-weight: 600;
+     color: #252323;
+     font-size: 1.5vw;
+ }
+
+ .Product-card_description{
+     color: #5c5959;
+     font-size: 1vw;
+     font-weight: 400;
+ }
+
+ .Product-card_button{
+     width: 100%;
+     height: 60px;
+     color: #ffffff;
+     border: none;
+     border-radius: 0 0 10px 10px;
+     display: flex;
+     padding: 0 20px;
+     align-items: center;
+     justify-content: space-between;
+     font-weight: 500;
+ }
+ 
+ .Product-card_button-text{
+     font-weight: 500;
+     margin: 0;
+ }
+
+ .Product-card_button:focus{
+     outline: none;
+ }
+
+ .Product-card_button:hover{
+     background: #393E46;
+ }
+
+ @media screen and (max-width:1120px){
+    .Product-card_title{
+        font-size: 1.8vw;
+    }
+    .Product-card_description{
+        font-size: 1.3vw;
+    }
+ }
+
+ @media screen and (max-width: 1028px){
+    .Product-card_box{
+        max-width: 360px;
+    }
+    .Product-card_description{
+        font-size: 1.4vw;
+    }
+ }
+
+ @media screen and (max-width:900px){
+    .Product-card_title{
+        font-size: 2.4vw;
+    }
+    .Product-card_description{
+        font-size: 1.8vw;
+    }
+ }
+
+ @media screen and (max-width:780px){
+    .Product-card_box{
+        max-width: 360px;
+    }
+    .Product-card_title{
+        font-size: 3.2vw;
+    }
+    .Product-card_description{
+        font-size: 2vw;
+    }
+    .Product-card_button{
+        height: 46px;
+    }
+ }
+
+ @media screen and (max-width:590px){
+    .Product-card_box{
+        max-width: 200px;
+    }   
+    .Product-card_text-box{
+        padding: 20px 10px;
+        height: 130px;
+    }
+ }

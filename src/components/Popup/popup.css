@@ -1,0 +1,58 @@
+.x{
+    position: absolute;
+    z-index: 2;
+    top: -20px;
+    right: -20px;
+    cursor: pointer;
+  }
+  
+  .message-Deactive{
+    display: none;
+  }
+
+  .message-backdrop{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #1a18185b;
+  }
+
+  .error{
+  background: #bd3e3e;
+  border: 1px solid #ce2c2cf4;
+  color: #ffffff;
+}
+
+  .loading{
+    background: #353794;
+    border: 1px solid #140e4e;
+    color: #ffffff;
+  }
+
+  .success{
+    background: #37aa7a;
+    border: 1px solid #277a47;
+    color: #ffffff;
+  }
+
+  .message-header{
+    text-align: center;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin:  auto;
+    border-radius: 10px;
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

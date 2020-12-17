@@ -1,0 +1,153 @@
+.Nav-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6em;
+    align-items: center;
+    height: 8em;
+    font-family: 'Lato', sans-serif;
+}
+
+.Nav-mobile_ham-burger{
+    display: none;
+    cursor: pointer;
+}
+
+.Nav-title{
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #1C2942;
+    margin: 0;
+}
+
+.Nav-box a{
+    text-decoration: none;
+}
+
+.Nav-bar_left{
+    display: flex;
+}
+
+.Nav-right{
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Nav-right a{
+    color: #363636;
+}
+
+.Nav-auth_btn{
+    font-weight: 500;
+    padding: .6em .8em;
+    border-radius: .3em;
+    font-size: 1rem;
+}
+
+.Nav-auth_btn:hover{
+    background: #393E46;
+}
+
+/* nav side bar */
+
+.Nav-close{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.side-bar{
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0px;
+    height: 100vh;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+}
+
+
+.Nav-cart_count{
+    padding: 5px 8px;
+    border-radius: 5em;
+    position: relative;
+    color: #ffffff;
+    font-weight: 700;
+    top: -12px;
+    right: -4px;
+}
+
+.side-bar a{
+    color: #363636;
+    font-weight: 500;
+}
+
+.Nav-side-bar:hover{
+    background: #e0dbdb;
+}
+
+.Nav-side-bar{
+    padding: 20px 40px;
+}
+
+.Nav-side_btn{
+    padding: 20px 40px;
+}
+
+.Nav-active{ 
+    transform: translateX(0%);
+}
+
+.backdrop-deactive{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #36363669;
+}
+
+.Line{
+    background: #000000;
+    height: 4px;
+    width: 30px;
+}
+
+@media screen and (max-width: 1028px) {
+    .Nav-box{
+        padding: 0 50px;
+    }
+    .Nav-right-web{
+        display: none;
+    }
+    .Nav-mobile_ham-burger{
+        display: flex;
+        justify-content: space-between;
+        height: 22px;
+        flex-direction: column;
+    }   
+.Nav-cart{
+    width: 80px;
+}
+.Nav-title{
+    font-size: 1.5rem;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+    .Nav-box{
+        padding: 0 30px;
+    }
+    .side-bar{
+        width: 80%;
+    }
+}

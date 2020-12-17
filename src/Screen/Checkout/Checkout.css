@@ -1,0 +1,79 @@
+.Checkout-container{
+    padding: 100px 0;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+#Checkout-bill{
+    color: #363636;
+    width: 48%
+}
+
+.Checkout-bill_box{
+    border-radius: 10px;
+    background: #f5f5f5;
+    padding: 30px;
+}
+
+.Checkout-bill_title{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.Checkout-bill_items-total{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.Checkout-bill_item-list{
+    margin: 0;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Checkout-bill_item-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Checkout-bill_total-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Checkout-bill_item-price{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Checkout-success_message{
+    width: 460px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-between;
+    margin: 160px auto;
+}
+
+.Checkout-success_message-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+.Checkout-success_redirect-link{
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Checkout-payment{
+    width: 50%
+}

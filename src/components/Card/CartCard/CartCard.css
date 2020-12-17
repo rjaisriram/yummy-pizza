@@ -1,0 +1,58 @@
+.Cart-card_box{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Cart-card_image{
+    width: 14em;
+    height: 10em;
+    object-fit: cover;
+}
+
+.Cart-card_pizza-details{
+    width: 100%;
+    padding:0 2em ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Cart-card_title{
+    margin-top: .3em;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+#Cart-update{
+    padding: .3em 1em;
+    width: 6em;
+}
+
+.Cart-select{
+    padding: .3em 1em;
+    width: 4em;
+    height: 2em;
+    font-weight: 400;
+    font-size:1rem;
+}
+
+.Cart-size{
+    width: 6em;
+    height: 2em;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.Cart-remove_button{
+    cursor: pointer;
+    margin-right: 2em;
+    font-size: 2rem;
+    color: #f11717;
+}
+
+@media screen and (max-width: 900px){
+    .Cart-remove_button{
+        margin: 0;
+    }
+}

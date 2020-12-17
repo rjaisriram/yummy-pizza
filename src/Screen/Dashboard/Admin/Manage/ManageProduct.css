@@ -1,0 +1,47 @@
+.manage-product_container{
+    min-height: 80vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.manage-product_title{
+    margin-top: 2em;
+    font-size: 1.5rem;
+
+}
+
+.manage-product_box{
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.manage-product_image{
+    width: 14em;
+    border-radius:1em;
+    margin-right: 3em;
+}
+
+.manage-product_name{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.manage-product_edit-box{
+    margin-left: auto;
+}
+
+.manage-product_delete{
+    color: #f50d0d;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 1.8em;
+}
+
+.manage-product_update{
+    color: #0df50d;
+    font-size: 1rem;
+}
+
+.manage-product_update:hover{
+    color: #0df50d;
+    text-decoration: none;
+}

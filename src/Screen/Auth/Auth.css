@@ -1,0 +1,139 @@
+.auth-page{
+    background: #222831;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.auth-page_box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 3em;
+    width: 44em;
+    height: 46em;
+    border-radius: 1em;
+    background: white;
+}
+
+.auth_sign_up-box{
+    height: 48em;
+}
+
+.auth-page_title{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    padding-top: .3em;
+    font-size: 2.6rem;
+    font-weight: 400;
+    color: #222831;
+}
+
+
+.auth-page_description{
+    font-size: 1rem;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.auth-page_input-field{
+    height: 3.6em;
+    font-size: 1rem;
+}
+
+.auth-page_description a{
+ color: #222831;
+}
+
+.auth-page_forgot-password{
+    font-size: 1rem;
+    color: #222831;
+}
+
+.auth-page_forgot-password:hover{
+    color: #222831;
+}
+
+.auth-page_button{
+    color: #ffffff;
+    height: 3.6em;
+    border-radius: .2em;
+    margin-top: 1.4em;
+    font-weight: 500;
+}
+
+.auth-page_button:hover {
+    color: #ffffff;
+    background: #393E46;
+}
+
+.account-activation_page{
+    max-width: 50em;
+    width:90%;
+    margin: 0 auto;
+    height: 50vh;
+    text-align: center;
+}
+
+.account-activation_title{
+    font-size: 1.6rem;
+    margin-top: 6em;
+}
+
+.account-activation_button{
+    height: 3em;
+    width: 10em;
+    color: #fff;
+}
+
+.account-activation_button:hover{
+    color: #fff;
+    background:#393E46
+}
+
+.forgot-password_page{
+    max-width: 50em;
+    width: 90%;
+    margin: 3em auto;
+    height: 40vh;
+}
+
+.reset-password_page{
+    margin: 3em auto;
+    height: 50vh;
+    width: 90%;
+    max-width: 50em;
+}
+
+.forgot-password_page-title{
+    font-size: 1.8rem;
+    margin: 3em 0 1em 0;
+}
+
+.forgot-password_button{
+    font-size: 1.2rem;
+    color: #fff;
+    height: 2.5em;
+    padding: 0 1em;
+    margin-top: 1em;
+}
+
+.forgot-password_button:hover{
+    background: #393E46;
+    color: #fff
+}
+
+.reset-password_button{
+    font-size: 1.2rem;
+    color: #fff;
+    height: 2.5em;
+    padding: 0 1em;
+    margin-bottom: 10em;
+}
+
+.reset-password_button:hover{
+    background: #393E46;
+    color: #fff
+}
